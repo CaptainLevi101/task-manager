@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Features
+Task Creation: Add tasks with details such as title, description, priority, and deadline.
+Priority Management: Set task priority levels (Low, Medium, High, Very High).
+Deadline Selection: Use a calendar picker to assign deadlines to tasks.
+Task Storage: Save tasks to localStorage for persistent state across sessions.
+Dynamic Dialogs: Use modal dialogs for creating and managing tasks.
+Form Validation: Ensure task inputs are valid using Zod schemas integrated with React Hook Form.
+Responsive UI: A user-friendly and responsive design built with Radix UI components.
+
+## How It Works
+## Adding Tasks:
+
+Click the "Add Task" button to open a dialog.
+Fill in the task details (title, description, priority, deadline).
+Submit the form to save the task.
+Viewing Tasks:
+
+Tasks are displayed in a list with their respective details.
+Persistent Storage:
+
+Tasks are saved to localStorage to retain state after browser reload.
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
